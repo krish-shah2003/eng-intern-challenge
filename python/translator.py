@@ -119,4 +119,5 @@ def translate(input_str):
 if __name__ == "__main__":
     user_input = ' '.join(sys.argv[1:])
     print(translate(user_input), flush=True)
+    ##
 
